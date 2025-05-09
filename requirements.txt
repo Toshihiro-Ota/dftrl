@@ -1,0 +1,4 @@
+matplotlib
+numpy
+torch
+torchdiffeq==0.2.5
