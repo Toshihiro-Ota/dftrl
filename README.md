@@ -1,6 +1,6 @@
 # Dissipation FTRL
 
-This is the official Python implementation of the *dissipation FTRL* algorithm presented in the paper "The Hamiltonian of Poly-matrix Zero-sum Games," [arXiv:2505.xxxxx](https://arxiv.org/abs/2505.xxxxx).
+This is the official Python implementation of the *dissipation FTRL* algorithm presented in the paper "The Hamiltonian of Poly-matrix Zero-sum Games," [arXiv:2505.12609](https://arxiv.org/abs/2505.12609).
 
 ## Abstract
 
@@ -38,7 +38,7 @@ If you use our code, or otherwise find our work useful, please cite the accompan
 @article{ota2025hamiltonian,
     title   = {The {H}amiltonian of Poly-matrix Zero-sum Games},
     author  = {Ota, Toshihiro and Fujimoto, Yuma},
-    journal = {arXiv preprint arXiv:2505.xxxxx},
+    journal = {arXiv preprint arXiv:2505.12609},
     year    = {2025}
 }
 ```
