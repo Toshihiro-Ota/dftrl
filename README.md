@@ -1,10 +1,10 @@
 # Dissipation FTRL
 
-This is the official Python implementation of the *dissipation FTRL* algorithm presented in the paper "The Hamiltonian of Poly-matrix Zero-sum Games," [arXiv:2505.12609](https://arxiv.org/abs/2505.12609).
+This is the official Python implementation of the *dissipation FTRL* algorithm presented in the paper "Hamiltonian of polymatrix zero-sum games," [arXiv:2505.12609](https://arxiv.org/abs/2505.12609).
 
 ## Abstract
 
-Understanding a dynamical system fundamentally relies on establishing an appropriate Hamiltonian function and elucidating its symmetries. By formulating agents' strategies and cumulative payoffs as canonically conjugate variables, we identify the Hamiltonian function that generates the dynamics of poly-matrix zero-sum games. We reveal the symmetries of our Hamiltonian and derive the associated conserved quantities, showing how the conservation of probability and the invariance of the Fenchel coupling are intrinsically encoded within the system. Furthermore, we propose the *dissipation FTRL* (DFTRL) dynamics by introducing a perturbation that dissipates the Fenchel coupling, proving convergence to the Nash equilibrium and linking DFTRL to last-iterate convergent algorithms. Our results highlight the potential of Hamiltonian dynamics in uncovering the structural properties of learning dynamics in games, and pave the way for broader applications of Hamiltonian dynamics in game theory and machine learning.
+The understanding of a dynamical system's properties can be significantly advanced by establishing it as a Hamiltonian system and then systematically exploring its inherent symmetries. By formulating agents' strategies and cumulative payoffs as canonically conjugate variables, we identify the Hamiltonian function that generates the dynamics of poly-matrix zero-sum games. We reveal the symmetries of our Hamiltonian and derive the associated conserved quantities, showing how the conservation of probability and the invariance of the Fenchel coupling are intrinsically encoded within the system. Furthermore, we propose the *dissipation FTRL* (DFTRL) dynamics by introducing a perturbation that dissipates the Fenchel coupling, proving convergence to the Nash equilibrium and linking DFTRL to last-iterate convergent algorithms. Our results highlight the potential of Hamiltonian dynamics in uncovering the structural properties of learning dynamics in games, and pave the way for broader applications of Hamiltonian dynamics in game theory and machine learning.
 
 ## Usage
 
@@ -36,9 +36,13 @@ If you use our code, or otherwise find our work useful, please cite the accompan
 
 ```bibtex
 @article{ota2025hamiltonian,
-    title   = {The {H}amiltonian of Poly-matrix Zero-sum Games},
-    author  = {Ota, Toshihiro and Fujimoto, Yuma},
-    journal = {arXiv preprint arXiv:2505.12609},
-    year    = {2025}
+    title     = {Hamiltonian of polymatrix zero-sum games},
+    author    = {Ota, Toshihiro and Fujimoto, Yuma},
+    journal   = {Physical Review Research},
+    volume    = {7},
+    number    = {4},
+    pages     = {043333},
+    year      = {2025},
+    publisher = {APS}
 }
 ```
